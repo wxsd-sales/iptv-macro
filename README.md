@@ -2,6 +2,14 @@
 
 This Webex Device macro lets open IPTV content on your Webex Device as a WebView
 
+## Overview
+
+Upon startup, this macro gets a M3U8 playlist file from a reachable web server via a HTTP GET. Then it parses and verifies the playlist links to ensure they can be played in the Web Apps HLS Player.
+
+When a user taps on an IPTV channel to view, the macro will generate a URL Hash parameter containing the main devices IP address, local username/password and the link of the stream in which to initiall display.
+
+If the user changes the channel while the Web App is open, the macro will send the new stream link as Message Send event which the Web App listens for and parses the new channel and load it in the HLS player.
+
 ## Setup
 
 ### Prerequisites & Dependencies: 
