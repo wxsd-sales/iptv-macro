@@ -1,6 +1,6 @@
 # IPTV Macro
 
-This Webex Device macro lets open you open live or VOD content on your Webex Device within a Web View and also lets you control the HTML player via UI Extensions. Therefore enabling users to launch content on the non interactive display of your Webex Device and control the player from an in room controller.
+This Webex Device macro lets view and control Live or VOD content on your Webex Device within a Web View and also lets you control the HTML player via UI Extensions. Therefore enabling users to launch content on the non interactive display of your Webex Device and control the player from an in room controller.
 
 ![IPTV Macro](https://github.com/wxsd-sales/iptv-macro/assets/21026209/5de8b711-fd16-41cd-af4f-f2f7057ed0ac)
 
