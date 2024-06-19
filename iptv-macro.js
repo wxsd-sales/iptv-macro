@@ -336,6 +336,7 @@ async function processPageClose(event) {
   panelOpen = false;
 
   xapi.Status.SystemUnit.State.NumberOfActiveCalls.get().then((value) => {
+    return
     console.log('active calls', value)
     if (value == 1) return;
     setTimeout(() => {
